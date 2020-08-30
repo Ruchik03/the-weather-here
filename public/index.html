@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0"
+         />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <title>The Weather Here</title>
+   </head>
+   <body>
+      <header>
+         <h1>The Weather Here</h1>
+         <h2>Check the weather and the air quality at your location</h2>
+      </header>
+      <nav>
+         <a id="checkinLink" title="check in if you manually change your loaction" href="/">Check In</a> | 
+         <a id="viewCheckinLink" title="Check the map" href="/checkins">View Checkins</a>
+      </nav>
+      <div id="container">
+         <div id = "weather">
+            The weather here at <span id="city"></span>(<span id="latitude"></span>&deg;,
+            <span id="longitude"></span>&deg;) is <span id="summary"></span> with
+            a temperature of <span id="temp"></span>&deg; F.
+         </div>
+         <div id="air_check">
+            The concentration of particulate matter (<span id="aq_parameter"></span>) is
+            <span id="aq_value"></span> <span id="aq_units"></span> last read on
+            <span id="aq_date"></span>.
+         </div>
+      </div>
+      <script src="sketch.js"></script>
+   </body>
+</html>
