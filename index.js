@@ -1,8 +1,8 @@
 /**
- * This is the API for the application. It get the location from the user
+ * This is the API for the application. It gets the location from the user
  * and sends it to three different API's to get the information about the
  * weather, air quality and the city name of the current location. It saves
- * all that data to a database and sends it on the client-side code to plot
+ * all that data to a database and sends it to the client-side code to plot
  * these locations on a map.
  *
  * @author: Ruchik Chaudhari
